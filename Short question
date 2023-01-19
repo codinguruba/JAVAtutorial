@@ -1,0 +1,13 @@
+
+What is JDK?
+- The Java Development Kit (JDK) is a software development kit that contains all the tools necessary to develop, compile, and run Java programs.
+
+
+What is JVM?
+- Java Virtual Machine (JVM) is a software that provides an environment for running Java programs.
+It interprets the bytecode, which is a compiled form of the Java source code, and executes it on the computer's hardware.
+
+
+What is bytecode?
+- When you run a Java program, the source code is first compiled into bytecode.
+Once the bytecode is generated, it is then executed by the Java Virtual Machine (JVM).
