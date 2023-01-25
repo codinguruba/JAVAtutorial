@@ -28,6 +28,12 @@ Primitive data types - includes byte, short, int, long, float, double, boolean a
 
  Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
  
+ What is Operator in JAVA?
+ - Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.
+ 
+ Arithmetic  - An arithmetic operator is a mathematical operator that performs basic arithmetic operations such as addition, 
+ subtraction, multiplication, and division. (* ,/, %, + , - )
+ 
  // Simple Interest Program 
  
  import java.util.Scanner;
