@@ -11,3 +11,19 @@ It interprets the bytecode, which is a compiled form of the Java source code, an
 What is bytecode?
 - When you run a Java program, the source code is first compiled into bytecode.
 Once the bytecode is generated, it is then executed by the Java Virtual Machine (JVM).
+
+
+what is variable ?
+-Variables are containers for storing data values. In Java, there are different types of variables, for example: String - stores text, such as "Hello"
+
+Why Java is called strongly typed language ?
+- Java is called a strongly typed language because it requires all variables to be declared with a specific data type and it 
+enforces strict type checking at compile time.
+
+What is datatype in JAVA?
+- A data type is a classification of data that defines the type of value a variable can hold,
+the operations that can be performed on that data, and the amount of memory required to store it.
+
+Primitive data types - includes byte, short, int, long, float, double, boolean and char.
+
+ Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
