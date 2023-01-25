@@ -27,3 +27,21 @@ the operations that can be performed on that data, and the amount of memory requ
 Primitive data types - includes byte, short, int, long, float, double, boolean and char.
 
  Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+ 
+ // Simple Interest Program 
+ 
+ import java.util.Scanner;
+ 
+public class SimpleInterest {
+    public static void main(String[] args) {
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter the principal amount: ");
+        double principal = ob.nextDouble();
+        System.out.println("Enter the rate of interest: ");
+        double rate = ob.nextDouble();
+        System.out.println("Enter the time (in years): ");
+        double time = ob.nextDouble();
+        double interest = (principal * rate * time) / 100;
+        System.out.println("Simple Interest: " + interest);
+    }
+}
