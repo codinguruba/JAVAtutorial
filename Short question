@@ -32,7 +32,19 @@ Primitive data types - includes byte, short, int, long, float, double, boolean a
  - Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.
  
  Arithmetic  - An arithmetic operator is a mathematical operator that performs basic arithmetic operations such as addition, 
- subtraction, multiplication, and division. (* ,/, %, + , - )
+ subtraction, multiplication, and division. (* ,/, %, + , - ).
+ 
+ Comparison operators (e.g., ==, !=, >, <, >=, <=)
+ Comparison operators are used to compare two values (or variables). 
+ This is important in programming, because it helps us to find answers and make decisions.
+The return value of a comparison is either true or false.
+
+Logical operators (e.g., &&, ||, !)
+
+These operators are used to combine multiple comparison statements and return a single boolean result.
+&& (and) returns true if both operands are true, otherwise false.
+|| (or) returns true if either operand is true, otherwise false.
+! (not) returns the opposite of the operand (i.e., if the operand is true, ! returns false).
  
  // Simple Interest Program 
  
