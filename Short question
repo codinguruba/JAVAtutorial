@@ -24,6 +24,10 @@ What is datatype in JAVA?
 - A data type is a classification of data that defines the type of value a variable can hold,
 the operations that can be performed on that data, and the amount of memory required to store it.
 
+What is Garbage Collection ?
+-Garbage collection in Java is the process by which Java programs perform automatic memory management.
+ Garbage collection is the process of automatically freeing up memory that is no longer being used by an application.
+
 Primitive data types - includes byte, short, int, long, float, double, boolean and char.
 
  Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
@@ -34,7 +38,7 @@ Primitive data types - includes byte, short, int, long, float, double, boolean a
  Arithmetic  - An arithmetic operator is a mathematical operator that performs basic arithmetic operations such as addition, 
  subtraction, multiplication, and division. (* ,/, %, + , - ).
  
- Comparison operators (e.g., ==, !=, >, <, >=, <=)
+ Comparison operators (e.g., ==, !=, >, <, >=, <=) / Relational Operator
  Comparison operators are used to compare two values (or variables). 
  This is important in programming, because it helps us to find answers and make decisions.
 The return value of a comparison is either true or false.
