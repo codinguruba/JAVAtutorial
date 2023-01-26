@@ -1,0 +1,22 @@
+What is OOP ? What are the characteristics of OOP?
+Object-oriented programming (OOP) is a programming paradigm that uses objects, which are instances of classes,
+to represent and manipulate data. In OOP, a class defines the properties and methods that an object of that class will have.
+The object can then be manipulated and interacted with through those properties and methods. OOP allows for the creation of 
+reusable, modular code, and can make it easier to organize and maintain a program.
+
+The characteristics of OOP are
+
+Inheritance: the ability for one class to inherit the properties and methods of another class,
+allowing for code reuse and the creation of a class hierarchy.
+
+Polymorphism: In Java, polymorphism refers to the ability of a class to provide different implementations of a method,
+depending on the type of object that is passed to the method.
+To put it simply, polymorphism in Java allows us to perform the same action in many different ways.
+
+Encapsulation: Encapsulation in Java is the process by which data (variables) and the code that acts upon them (methods) are integrated as a single unit.
+By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
+
+Abstraction in Java: Abstraction: the ability to define objects in terms of their properties and methods, rather than their specific implementation. 
+This allows for the creation of general-purpose objects that can be easily reused and extended in different parts of a program
+
+
