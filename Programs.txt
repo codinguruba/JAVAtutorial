@@ -44,4 +44,32 @@ class Examplefactorial{
   fact = factorial(number);   
   System.out.println("Factorial of "+number+" is: "+fact);    
  }  
-}                                          
+} 
+
+WAP to check if the number is Palindrome or not
+import java.util.Scanner;
+public class Palindrome {
+    public static void main(String[] args) {
+        int rem , rev = 0 , temp;
+        System.out.println("Enter a number:");
+        Scanner ob = new Scanner(System.in);
+        int number = ob.nextInt();
+        temp = number;
+       
+        
+        while(number>0){
+            rem = number%10;
+            rev = (rev*10)+rem;
+            number = number/10;
+            
+        }
+        
+        if(temp==rev){
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not a palindrome");
+        }
+         
+    } 
+}
