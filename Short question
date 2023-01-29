@@ -49,6 +49,11 @@ These operators are used to combine multiple comparison statements and return a 
 && (and) returns true if both operands are true, otherwise false.
 || (or) returns true if either operand is true, otherwise false.
 ! (not) returns the opposite of the operand (i.e., if the operand is true, ! returns false).
+
+Java Ternary Operator
+
+Java Ternary operator is used as one line replacement for if-then-else statement and used a lot in Java programming. 
+It is the only conditional operator which takes three operands.
  
  // Simple Interest Program 
  
