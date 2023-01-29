@@ -26,3 +26,22 @@ public class PrimeNo {
   }
 }
  
+// WAP to calculate Factorial of a number using recursive function
+
+import java.util.Scanner;
+class Examplefactorial{  
+ static int factorial(int n){    
+  if (n == 0)    
+    return 1;    
+  else    
+    return(n * factorial(n-1));    
+ }    
+ public static void main(String args[]){  
+  int i,fact=1; 
+  Scanner ob = new Scanner(System.in);
+  System.out.println("Enter the number to calculate factorial ");
+  int number = ob.nextInt();
+  fact = factorial(number);   
+  System.out.println("Factorial of "+number+" is: "+fact);    
+ }  
+}                                          
