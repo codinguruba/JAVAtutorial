@@ -73,4 +73,11 @@ break statement is used to exit or break out of a loop.
 When the break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes
 at the next statement following the loop.
 
+When the continue statement is encountered inside a loop, the current iteration is skipped and the program control moves to
+the next iteration of the loop.
+
+What is the difference between break and continue ?
+In simple words, break statement is used to exit the loop and continue statement is used to 
+skip an iteration of the loop and move to the next iteration.
+
 
