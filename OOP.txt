@@ -61,3 +61,42 @@ public class Demo {
     
 }
 
+// interface example // 
+interface A{
+    public int add(int a , int b);
+    public int subtract(int a , int b);
+    public int multiply(int a ,int b);
+            
+         
+}
+class B implements A{
+    
+    @Override
+    public int add(int a ,int b){
+        return a+b;
+    }
+   
+    @Override
+    public int subtract(int a ,int b){
+        return a-b;
+    }
+    
+    @Override
+    public int multiply(int a ,int b){
+        return a*b;
+    }
+    
+}
+public class Demo {
+    public static void main(String[] args) {
+      B ob = new B();
+      System.out.println(ob.add(5, 4));
+      System.out.println(ob.subtract(3, 2));
+      System.out.println(ob.multiply(2, 3));
+      
+       
+    }
+    
+}
+
+
