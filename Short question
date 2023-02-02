@@ -89,6 +89,9 @@ What is the use of finalize() method in JAVA?
 The Java finalize() method of Object class is a method that the Garbage Collector always calls just before the deletion/destroying 
 the object which is eligible for Garbage Collection to perform clean-up activity.
 
+In Java, a constructor is a special type of method that is used to initialize objects.
+It is automatically called when an object is created, and has the same name as the class.It has no return type
+
 
 
 
