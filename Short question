@@ -124,3 +124,7 @@ What is dynamic method dispatch?
 Dynamic method dispatch is a mechanism in object-oriented programming languages where the method to be executed is determined at runtime, 
 based on the type of the object that the method is being invoked on.
 
+What is inner class?
+An inner class is a class defined inside another class. Inner classes are typically used to group related behaviors and encapsulate
+them within the outer class, making the code more organized and readable.
+
