@@ -93,6 +93,17 @@ What is constructor?
 In Java, a constructor is a special type of method that is used to initialize objects.
 It is automatically called when an object is created, and has the same name as the class.It has no return type.
 
+What is type conversion in JAVA?
+Converting one primitive datatype into another is known as type casting (type conversion) in Java.
+Example
+public class WideningExample {
+   public static void main(String args[]){
+      char ch = 'C';
+      int i = ch;
+      System.out.println(i);
+   }
+}
+
 
 
 
