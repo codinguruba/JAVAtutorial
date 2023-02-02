@@ -116,3 +116,11 @@ What is wildcard in java?
 In Java, wildcards are a feature of generics that allow you to specify a type parameter with more flexibility. A wildcard is represented by the ? symbol,
 and it can be used in two ways: as a wildcard parameter type in a generic type, or as a wildcard argument in a method or constructor.
 
+What is recursion ? / What is recursive method in java?
+- Recursion in java is a process in which a method calls itself continuously. 
+A method in java that calls itself is called recursive method.
+
+What is dynamic method dispatch?
+Dynamic method dispatch is a mechanism in object-oriented programming languages where the method to be executed is determined at runtime, 
+based on the type of the object that the method is being invoked on.
+
