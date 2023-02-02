@@ -85,4 +85,10 @@ What is the difference between break and continue ?
 In simple words, break statement is used to exit the loop and continue statement is used to 
 skip an iteration of the loop and move to the next iteration.
 
+What is the use of finalize() method in JAVA?
+The Java finalize() method of Object class is a method that the Garbage Collector always calls just before the deletion/destroying 
+the object which is eligible for Garbage Collection to perform clean-up activity.
+
+
+
 
