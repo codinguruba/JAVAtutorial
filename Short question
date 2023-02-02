@@ -132,3 +132,9 @@ them within the outer class, making the code more organized and readable.
 what is the use of final keyword in java?
 -The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override).
 The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
+
+What is super keyword?
+- The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+super can be used to refer immediate parent class instance variable.
+super can be used to invoke immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
