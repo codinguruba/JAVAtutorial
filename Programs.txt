@@ -91,4 +91,28 @@ public class Factorial{
            
     }
 }
+// WAP to find the second largest number  from an array element.
+
+public class SecondLargest{  
+public static int getSecondSmallest(int[] a, int total){  
+int temp;  
+for (int i = 0; i < total; i++)   
+        {  
+            for (int j = i + 1; j < total; j++)   
+            {  
+                if (a[i] > a[j])   
+                {  
+                    temp = a[i];  
+                    a[i] = a[j];  
+                    a[j] = temp;  
+                }  
+            }  
+        }  
+       return a[1];//2nd element because index starts from 0  
+}  
+public static void main(String args[]){  
+int a[]={1,22,5,6,3,28};    
+System.out.println("Second smallest: "+getSecondSmallest(a,6));  
+ 
+}
 
