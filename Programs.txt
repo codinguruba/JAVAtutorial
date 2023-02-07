@@ -115,4 +115,5 @@ int a[]={1,22,5,6,3,28};
 System.out.println("Second smallest: "+getSecondSmallest(a,6));  
  
 }
+}
 
