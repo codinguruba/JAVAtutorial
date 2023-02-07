@@ -128,5 +128,53 @@ public class Demo2 {
     }
 }
 
+// OOP example solution // 
+interface Shape{
+    public void area();
+    public void perimeter();
+}
+
+class Circle implements Shape{
+    int radius = 4;
+    @Override
+    public void area(){
+        System.out.println("Area of circle:"+3.14*radius*radius);
+    }
+    @Override
+    public void perimeter(){
+        System.out.println("Perimeter of circle:"+2*3.14*radius);
+    }
+}
+
+class Rectangle implements Shape{
+    int length = 5 ;
+    int breadth = 4;
+    
+    @Override
+    public void area(){ 
+        System.out.println("Area of rectangle:"+length*breadth);
+    }
+    @Override
+    public void perimeter(){
+        int perimeter = 2*(length+breadth);
+        System.out.println("Perimeter of rectangle:"+perimeter);
+        
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        Circle c1 = new Circle();
+        c1.area();
+        c1.perimeter();
+        System.out.println("");
+        Rectangle r1 = new Rectangle();
+        r1.area();
+        r1.perimeter();
+        
+
+    }
+}
 
 
