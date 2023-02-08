@@ -35,5 +35,22 @@ Exception:
    throws --> used to inform the users that a method throws exception and hence use exception handling mechanism.
    
    
-   
+   //Arithmetic Exception//
+   public class Main {
+    public static void main(String[] args) {
+        int a = 10;
+        int b= 0;
+        try{
+            
+        int c= a/b;
+        
+        }
+        catch(ArithmeticException ex){
+            System.out.println(ex);
+        }
+        System.out.println("Rest of the code....");
+    } 
+    }
+
+
    
