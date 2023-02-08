@@ -106,4 +106,26 @@ public class Example{
     }
 }
 
+   // throw example//
    
+   public class ThrowExample {
+    static void check(int age){
+        if(age<18){
+            throw new ArithmeticException("Sorry not eligible");
+        }
+        else{
+            System.out.println("You can vote");
+        }
+        
+    }
+    public static void main(String[] args) {
+        try{
+        check(15);
+    }
+        catch(ArithmeticException ex){
+            System.out.println(ex.getMessage());
+            
+        }
+    }
+}
+
