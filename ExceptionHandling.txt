@@ -51,6 +51,24 @@ Exception:
         System.out.println("Rest of the code....");
     } 
     }
+    
+    // ArrayIndexOutOfBoundsException 
+    
+    public class Main {
+    public static void main(String[] args) {
+        int a[] = {5,6,7,8,9};
+        try{
+        System.out.println(a[5]);
+        }
+        catch(ArrayIndexOutOfBoundsException ex){
+            System.out.println(ex);
+            
+        }
+        System.out.println("Rest of my code...");
+    }   
+    }
+
+    
 
 
    
