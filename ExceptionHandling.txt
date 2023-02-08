@@ -87,7 +87,23 @@ public class Main {
        
     }   
     }
-
-
+// throws example//
+public class Example{
+    static int  divide(int a , int b) throws ArithmeticException{
+        int div = a/b;
+        return div;
+    }
+    
+    public static void main(String[] args) {
+        try{
+        divide(10,0);
+        }
+        catch(ArithmeticException ex){
+            System.out.println(ex);
+        }
+        System.out.println("Rest of the code.....");
+        
+    }
+}
 
    
