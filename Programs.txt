@@ -167,3 +167,27 @@ public class Example{
         subtract(10,2);
     }
 }
+//Programs//
+import java.util.Scanner;
+
+public class Learning {
+    public static void main(String[] args) {
+        System.out.println("Enter a number:");
+        Scanner ob = new Scanner(System.in);
+        int a = ob.nextInt();
+        if(a>0){
+            System.out.println("Positive number");
+        }
+        
+        else if(a==0){
+            System.out.println("Equal to zero");
+        }
+        
+        else{
+            System.out.println("Negative number");
+        }
+        
+    }
+    
+}
+
