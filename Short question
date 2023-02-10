@@ -182,3 +182,9 @@ int[] myNum = {10, 20, 30, 40};
 What is autoboxing in java?
 Autoboxing is the automatic conversion that the Java compiler makes between the primitive types
 and their corresponding object wrapper classes. 
+
+What is static keyword in java?
+The static keyword is a non-access modifier used for methods and attributes. 
+Static methods/attributes can be accessed without creating an object of a class.
+
+
