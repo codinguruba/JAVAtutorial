@@ -174,3 +174,7 @@ public class Learning {
         
     }
 }
+
+What is array in java?
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+int[] myNum = {10, 20, 30, 40};
