@@ -43,6 +43,12 @@ Primitive data types - includes byte, short, int, long, float, double, boolean a
  This is important in programming, because it helps us to find answers and make decisions.
 The return value of a comparison is either true or false.
 
+Assignment operators are used in Java to assign values to variables. For example,
++= , -= , =
+
+Unary operators are used with only one operand.
+For example, ++ is a unary operator that increases the value of a variable by 1. That is, ++5 will return 6.
+
 Logical operators (e.g., &&, ||, !)
 
 These operators are used to combine multiple comparison statements and return a single boolean result.
