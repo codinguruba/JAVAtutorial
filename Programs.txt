@@ -261,3 +261,20 @@ public class Learning {
                 
     }
 }
+// for each//
+
+public class Main{
+    public static void main(String[] args) {
+        int a[] = new int[5];
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter 5 elements:");
+        for(int i = 0 ; i< 5 ;i++){
+            a[i] = ob.nextInt();
+        }
+        System.out.println("The elements of array is:");
+        for (int element : a){
+            System.out.println(element);
+        }
+    }
+    }
+
