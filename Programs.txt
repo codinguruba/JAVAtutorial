@@ -277,4 +277,16 @@ public class Main{
         }
     }
     }
+  //final keyword example in java//  
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args) {
+         final double PI = 3.14;
+         System.out.println("Enter a radius:");
+         Scanner ob = new Scanner(System.in);
+        int radius = ob.nextInt();
+        System.out.println("Area of circle:"+(PI*radius*radius));
+          
+    }
+    }
 
