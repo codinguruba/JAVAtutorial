@@ -223,4 +223,14 @@ The wrapper classes are part of the java.lang package and include: Integer, Char
 
 What is command line argument in java?
 Java command line arguments are arguments that are passed to your program via a terminal or shell command. They make your Java program more configurable 
-by giving users or scripts running your software a way to specify input parameters at run time
+by giving users or scripts running your software a way to specify input parameters at run time.
+
+What is JAVA (Nested class)?
+-Java nested class is class that is declared inside the class.
+Example//
+class Outer{
+//code
+class Inner {
+//code
+}
+}
