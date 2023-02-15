@@ -220,3 +220,7 @@ Static methods/attributes can be accessed without creating an object of a class.
 What is wrapper class in java?
 In Java, wrapper classes are used to wrap primitive data types (such as int, char, double, etc.) into objects. 
 The wrapper classes are part of the java.lang package and include: Integer, Character, Double, Boolean, Short, Long, Float, and Byte.
+
+What is command line argument in java?
+Java command line arguments are arguments that are passed to your program via a terminal or shell command. They make your Java program more configurable 
+by giving users or scripts running your software a way to specify input parameters at run time
