@@ -241,3 +241,15 @@ Classes are categories, and objects are items within each category. All class ob
 What is inheritence in JAVA?
 Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. 
 It is an important part of OOPs (Object Oriented programming system).
+
+What is method overloading in JAVA?
+-Method overloading in java is a feature that allows a class to have more than
+one method with the same name, but with different parameters.
+
+What is token in JAVA?
+A token is the smallest element of a program that is meaningful to the compiler. Tokens can be classified as follows:
+Keywords
+Identifiers
+Constants
+Special Symbols
+Operators
