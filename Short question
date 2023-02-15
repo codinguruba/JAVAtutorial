@@ -234,3 +234,6 @@ class Inner {
 //code
 }
 }
+What is class in Java?
+A class — in the context of Java — is a template/blueprint used to create objects and to define object data types and methods.
+Classes are categories, and objects are items within each category. All class objects should have the basic class properties.
