@@ -290,3 +290,5 @@ What is method overriding:
 -
 If a subclass provides a specific implementation of a method that is already provided by its parent class,
 it is known as Method Overriding. It is used for runtime polymorphism and to implement the interface methods.
+
+
