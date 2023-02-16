@@ -260,3 +260,10 @@ What is interface in java?
 What is abstract class in java?
 An abstract class is a class that is declared abstract —it may or may not include abstract methods. 
 Abstract classes cannot be instantiated, but they can be subclassed
+
+What is object in java?
+-A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. 
+The state of an object is stored in fields (variables), while methods (functions) display the object's behavior.
+
+What is subclass in java?
+- A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
