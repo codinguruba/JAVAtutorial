@@ -285,3 +285,8 @@ What are the restrictions that are applied to the Java static methods?
 -Two main restrictions are applied to the static methods.
 The static method can not use non-static data member or call the non-static method directly.
 this and super cannot be used in static context as they are non-static.
+
+What is method overriding:
+-
+If a subclass provides a specific implementation of a method that is already provided by its parent class,
+it is known as Method Overriding. It is used for runtime polymorphism and to implement the interface methods.
