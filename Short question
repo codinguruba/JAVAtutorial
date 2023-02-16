@@ -256,3 +256,7 @@ Operators
 
 What is interface in java?
 - An interface in the Java programming language is an abstract type that is used to describe a behavior that classes must implement. 
+
+What is abstract class in java?
+An abstract class is a class that is declared abstract —it may or may not include abstract methods. 
+Abstract classes cannot be instantiated, but they can be subclassed
