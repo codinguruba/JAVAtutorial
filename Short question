@@ -267,3 +267,7 @@ The state of an object is stored in fields (variables), while methods (functions
 
 What is subclass in java?
 - A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+
+What happens when the main() isn't declared as static?
+When the main method is not declared as static, 
+then the program may be compiled correctly but ends up with a severe ambiguity and throws a run time error that reads "NoSuchMethodError."
