@@ -271,3 +271,12 @@ What is subclass in java?
 What happens when the main() isn't declared as static?
 When the main method is not declared as static, 
 then the program may be compiled correctly but ends up with a severe ambiguity and throws a run time error that reads "NoSuchMethodError."
+
+Why is JAVA called platform independent?
+- Java is platform-independent because it uses a virtual machine. 
+The Java programming language and all APIs are compiled into bytecodes
+
+ Why is the main method static?
+ 
+-Because the object is not required to call the static method. If we make the main method non-static,
+JVM will have to create its object first and then call main() method which will lead to the extra memory allocation
