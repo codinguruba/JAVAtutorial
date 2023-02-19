@@ -305,4 +305,7 @@ Local variables are defined in the method and scope of the variables that exist 
 
 Instance variable is defined inside the class and outside the method and the scope of the variables exists throughout the class.
 
+What is the use of extends keyword in java?
+The extends keyword extends a class (indicates that a class is inherited from another class). 
+In Java, it is possible to inherit attributes and methods from one class to another
 
