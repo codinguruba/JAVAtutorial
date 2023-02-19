@@ -300,3 +300,9 @@ What is encapsulation?
 Encapsulation: Encapsulation in Java is the process by which data (variables) and the code that acts upon them (methods) are integrated as a single unit.
 By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
 
+What are local and instance variable?
+Local variables are defined in the method and scope of the variables that exist inside the method itself.
+
+Instance variable is defined inside the class and outside the method and the scope of the variables exists throughout the class.
+
+
