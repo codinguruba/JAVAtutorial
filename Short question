@@ -291,4 +291,12 @@ What is method overriding:
 If a subclass provides a specific implementation of a method that is already provided by its parent class,
 it is known as Method Overriding. It is used for runtime polymorphism and to implement the interface methods.
 
+What is compile time polymorshism?
+Compile-time polymorphism is obtained through method overloading. 
+The term method overloading allows us to have more than one method with the same name. 
+Since this process is executed during compile time, that's why it is known as Compile-Time Polymorphism.
+
+What is encapsulation?
+Encapsulation: Encapsulation in Java is the process by which data (variables) and the code that acts upon them (methods) are integrated as a single unit.
+By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them.
 
