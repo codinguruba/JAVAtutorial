@@ -1,0 +1,32 @@
+1)What is constructor in java? Write a program to show the use of constructor.
+
+2) Define super keyword , final keyword and this keyword .
+Write a program in JAVA to show the use of super keyword , final keyword and this keyword.
+
+3) Define methodoverloading and methodoverriding and WAP in java to show the use of method overloading and overriding.
+
+4) Define abstract class and interface with example programs. 
+
+5) WAP to sort a array in ascending order .
+
+6) WAP to find largest element of an array
+
+7) WAP to find  smallest element of an array
+
+8) WAP to arrange one-dimensional array in descending order.
+
+9) WAP to show the use of for - each statement ( long question).
+
+10) Define access modifiers with examples.
+
+11) Define inheritence , variable length argument , ternary operators
+
+12) What are the types of operators in JAVA with examples
+
+13) Define abstraction , polymorshim , encapsulation and inheritence .
+
+14)Create a Shape interface having methods area() and perimeter() . Create two subclasses Circle and Rectangle that implements the 
+Shape interface . Create a class Demo with main method and demonstrate  the area and perimeter of both the shape classes.
+You need to handle the values of length , breadth and radius in respective class to calculate area and perimeter
+
+
