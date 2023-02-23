@@ -28,7 +28,7 @@ Exception:
    catch  --> used to hold the exception thrown from the try block
    
    finally -  The "finally" block is used to execute the necessary code of the program. 
-   It is executed whether or not  an exception is handled or not.
+   It is executed whether or not  an exception is handled.
    
    throw   --> used to explicitly throw an exception object
    
