@@ -309,3 +309,16 @@ What is the use of extends keyword in java?
 The extends keyword extends a class (indicates that a class is inherited from another class). 
 In Java, it is possible to inherit attributes and methods from one class to another
 
+What is custom exception in java?
+
+In Java, a custom exception is a user-defined exception that extends either the Exception or RuntimeException 
+class to handle exceptional cases that are not covered by the built-in exceptions.
+
+What is runtime polymorphism in java?
+- Runtime polymorphism, also known as the Dynamic Method Dispatch, is a process that resolves a call to an overridden method at runtime. 
+The process involves the use of the reference variable of a superclass to call for an overridden method.
+
+What is compile time polymorphism in java?
+- Compile time polymorphism in Java is also known as method overloading. 
+It is a feature in object-oriented programming that allows a class to have multiple methods with the same name but different parameters
+
