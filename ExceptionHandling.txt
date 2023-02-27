@@ -129,3 +129,39 @@ public class Example{
     }
 }
 
+// USER defined exception in JAVA
+
+class UserException extends Exception
+{
+	String showMessage()
+	{
+		return "Sorry Not Eligible";
+	}
+}
+class UserExceptionExample
+{ 
+	static void check(int age)throws UserException
+	{
+		if(age<18)
+		{
+			throw new UserException();
+		}
+		else
+		{
+			System.out.println("You Are Welcome To PUB");
+		}
+	}
+public static void main(String[] args)
+	{
+		try
+		{
+			check(12);
+		}
+		catch(UserException ue)
+		{
+			System.out.println(ue.showMessage());
+		}
+	}
+   
+}
+
