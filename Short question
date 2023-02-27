@@ -322,3 +322,13 @@ What is compile time polymorphism in java?
 - Compile time polymorphism in Java is also known as method overloading. 
 It is a feature in object-oriented programming that allows a class to have multiple methods with the same name but different parameters
 
+Difference between throw and throws .
+
+throw keyword: It is used to explicitly throw an exception from a method or block of code. When an exception is thrown using the throw keyword, the Java Virtual Machine (JVM)
+generates an exception object and passes it to the nearest catch block in the call stack.
+
+throws -
+throws keyword: It is used to declare the exceptions that a method may throw. When a method declares an exception using the throws keyword,
+it is indicating that the method might throw that exception during its execution.
+
+
