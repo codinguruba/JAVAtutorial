@@ -290,3 +290,27 @@ public class Main{
     }
     }
 
+// Question //
+
+import java.util.Scanner;
+
+public class Main {    
+    public static void main(String[] args) { 
+        Scanner ob = new Scanner(System.in);
+        String a[] = new String[5];
+        System.out.println("Enter 5 names:");
+        
+        for(int i = 0 ; i<5 ; i++){
+           a[i] = ob.next();
+        }
+        
+        System.out.println("");
+        System.out.println("The name of students ending with h are:");
+        for(int i = 0 ;i<5 ;i++){
+            if(a[i].endsWith("h")){
+                System.out.println(a[i]);
+            }
+        }
+       
+    }    
+}
