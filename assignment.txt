@@ -30,3 +30,21 @@ Shape interface . Create a class Demo with main method and demonstrate  the area
 You need to handle the values of length , breadth and radius in respective class to calculate area and perimeter
 
 
+// Assignment 2//
+1) what is exception handling ?
+2) What is checked and unchecked exception ?
+3)what is autoboxing in java?
+4) Write a java program to show use of throws , throw , finally , try catch.
+5) JAVA program to demonstrate user defined exception ( checked exception)
+6) what is jdk , jvm .
+7) what is runtime polymorphism?
+8) what is compile time polymorphism
+9) what happens when a constructor is declared private.
+10 ) define package in java
+11)what is the use of extends keyword and implements keyword
+12) define unary operator
+13) define Ternary Operator and Bitwise operator in java with example programs
+14) what is wildcard in java
+15) define garbage collector in java
+16) Write a java program to reverse a integer
+17) Write a java program to check whether an integer is palindrome or not
