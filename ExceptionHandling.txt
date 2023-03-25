@@ -164,4 +164,25 @@ public static void main(String[] args)
 	}
    
 }
+//Multiple catch statement//
+class MultiCatchBlockExample
+{
+	public static void main(String[] args)
+	{	int[] a = {2,4,6,8};
+		int b=5,c=0,d;
+		try
+		{	d=b/c;
+			System.out.println(a[4]);			
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Cannot Divide By Zero");
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{
+			System.out.println("Array Index Out Of Bounds Exception");
+		}		
+		System.out.println("rest of codes");
+	}
+}
 
