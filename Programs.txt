@@ -314,3 +314,23 @@ public class Main {
        
     }    
 }
+// JAVA program to reverse a string//
+public class Demo{
+    public static void main(String[] args) {
+        String name = "Suresh";
+        
+        for(int i = 0 ; i < name.length() ; i++){
+            char a = name.charAt(i);
+            System.out.print(a);
+            
+        }
+        System.out.println("");
+        System.out.println("The reverse is");
+        
+        for(int i = name.length()-1 ; i>=0 ; i-- ){
+            char a = name.charAt(i);
+            System.out.print(a);
+        }
+        
+    }
+}
