@@ -257,3 +257,30 @@ public class Test {
     }
 }
 
+class Animal {
+   public void makeSound() {
+      System.out.println("Some sound");
+   }
+}
+
+class Dog extends Animal {
+   public void makeSound() {
+      System.out.println("Bark");
+   }
+}
+
+class Cat extends Animal {
+   public void makeSound() {
+      System.out.println("Meow");
+   }
+}
+
+public class Main {
+   public static void main(String[] args) {
+      Animal animal1 = new Dog(); // Dynamic method dispatch
+      Animal animal2 = new Cat(); // Dynamic method dispatch
+
+      animal1.makeSound(); // Output: Bark
+      animal2.makeSound(); // Output: Meow
+   }
+}
