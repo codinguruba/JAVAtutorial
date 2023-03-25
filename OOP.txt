@@ -284,3 +284,34 @@ public class Main {
       animal2.makeSound(); // Output: Meow
    }
 }
+//Multiple inheritence example in JAVA//
+interface Shape{
+   public void draw();
+}
+
+interface Color{
+    public void fill();
+}
+
+class Rectangle implements Shape,Color{
+    @Override
+    public void draw(){
+        System.out.println("Drawing rectangle...");
+        
+    }
+    
+    @Override
+    public void fill(){
+        System.out.println("Filling rectangle...");
+    }
+    
+    
+}
+
+public class Demo{
+    public static void main(String[] args) {
+        Rectangle ob = new Rectangle();
+        ob.draw();
+        ob.fill();
+    }
+}
