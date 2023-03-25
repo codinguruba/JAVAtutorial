@@ -36,3 +36,38 @@ public class Main
         obj.print();
     }
 }
+
+
+//Generic function // user defined generic function .
+public class Demo{
+    static <T>  void genericdisplay(T element){
+        System.out.println(element.getClass().getName()+"="+element);
+       
+    }
+    public static void main(String[] args) {
+      genericdisplay(10);
+      genericdisplay("Miraj");
+      genericdisplay(1.6);
+    }
+    
+    
+}
+// Generic class//
+
+class Test<T>{
+    T ob ;
+    public Test(T ob ){
+        this.ob = ob;
+    }
+    public T getObject(){
+        return this.ob;
+    }
+}
+public class Demo{
+    public static void main(String[] args) {
+        Test<Integer> ob = new Test<Integer>(2);
+        Test<String> s1 = new Test<String>("Hello");
+        System.out.println(ob.getObject());
+        System.out.println(s1.getObject());
+    }
+}
