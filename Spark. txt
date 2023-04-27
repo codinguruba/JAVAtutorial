@@ -1,0 +1,158 @@
+
+// DBConnection
+import java.sql.Connection;
+import java.sql.*;
+
+public class DBConnection {
+
+    static Connection conn;
+
+    public static Connection createConnection() {
+        try {
+            String uname = "root";
+            String url = "jdbc:mysql://localhost:3306/restapi";
+            String pwd = "";
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection(url, uname, pwd);
+            
+            
+        } catch (Exception ex) {
+            System.out.println(ex);
+        }
+        return conn;
+    }
+    
+}
+// Main class//
+
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import static spark.Spark.*;
+
+public class Main {
+    public static void main(String[] args) {
+         
+        // Post Method//
+        post("/user", (req, res) -> {  
+            res.type("application/json");
+            JsonObject body = new JsonParser().parse(req.body()).getAsJsonObject();
+            String name = body.get("name").getAsString();
+            String address = body.get("address").getAsString();
+            String age = body.get("age").getAsString();
+            
+            UserserviceImp ob = new UserserviceImp();
+            User user = new User(name,address,age);
+            ob.createUser(user);
+            return "{\"status\": \"success\"}";
+    
+            
+        });
+        
+        //Delete method//
+        delete("/user", (req, res) -> { 
+            UserserviceImp ob = new UserserviceImp();
+            JsonObject body = new JsonParser().parse(req.body()).getAsJsonObject();
+            String address = body.get("address").getAsString();
+            ob.deleteUser(address);
+           
+           return "{\"status\": \"success\"}";
+         });
+         
+    //    User java
+        
+        
+public class User {
+    private String name;
+    private String address;
+    private String age;
+
+    public User() {
+    }
+
+    
+    
+    public User(String name, String address, String age) {
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+    
+    
+}
+
+// user service
+
+public interface Userservice {
+    public void createUser(User user);
+    public void deleteUser(String address);
+}
+
+//User service implements
+
+import java.sql.*;
+public class UserserviceImp implements Userservice{
+   Connection con;
+    @Override
+    public void createUser(User user) {
+        con = DBConnection.createConnection();
+        String query = "insert into mytable values(?,?,?)";
+        try {
+            PreparedStatement pt = con.prepareStatement(query);
+            pt.setString(1,user.getName());
+            pt.setString(2, user.getAddress());
+            pt.setString(3, user.getAge());
+            pt.executeUpdate();
+            
+    }
+        catch(Exception ex){
+            System.out.println(ex); 
+        }
+    }
+
+    @Override
+    public void deleteUser(String address) {
+        con = DBConnection.createConnection();
+        String query = "delete from mytable where address=?";
+        try {
+            PreparedStatement pt = con.prepareStatement(query);
+            pt.setString(1, address);
+            int cnt = pt.executeUpdate();
+            if (cnt != 0) {
+                System.out.println("Employee Deleted Successfully!!! " + address);
+            }
+
+        } 
+        catch (Exception ex) {
+            System.out.println(ex);
+        } 
+    }
+    
+}
+
+        
+    }
+}
