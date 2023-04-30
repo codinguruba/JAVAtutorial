@@ -156,3 +156,25 @@ public class UserserviceImp implements Userservice{
         
     }
 }
+
+
+//Nested JSON//
+    public void  createPerson(Person person) {
+        con = DBConnection.createConnection();
+        String query = "insert into mytable values(?,?,?,?,?)";
+        try {
+            PreparedStatement pt = con.prepareStatement(query);
+            pt.setInt(1, person.getId());
+            pt.setString(2, person.getName());
+            pt.setString(3,person.getEmail());
+            pt.setString(4, person.getAddress().getStreet());
+            pt.setString(5, person.getAddress().getPostcode());
+            pt.executeUpdate();
+            
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+           
+        }
+    }
+}
+
