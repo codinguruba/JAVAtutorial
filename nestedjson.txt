@@ -1,0 +1,32 @@
+//Nested Json
+
+
+public List<User> getUser(){
+        con = DBConnection.createConnection();
+        String query = "select * from user";
+         List<User> users = new ArrayList<>();
+         try{
+            Statement st = con.createStatement();
+            
+            ResultSet rs = st.executeQuery(query);
+            while(rs.next()){
+               int id = rs.getInt("id");
+               String name = rs.getString("name");
+               String age = rs.getString("age");
+               String street = rs.getString("street");
+               String postcode = rs.getString("postcode");
+               Address address = new Address(street,postcode);
+               User user = new User(id,name,age,address);
+               users.add(user);
+              
+                
+            }
+         }
+         catch(Exception ex){
+             System.out.println(ex.getMessage());
+             
+         }
+         return users;
+    }
+
+}
