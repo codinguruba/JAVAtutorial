@@ -23,3 +23,14 @@ public class Program {
         System.out.println("Your bank balance is,"+bank_balance);
     }
 }
+
+import java.util.Scanner;
+public class Program {
+    public static void main(String[] args) {
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter radius of circle:");
+        double radius = ob.nextDouble();
+        double area = 3.14*radius*radius;
+        System.out.println("Area of circle:"+area);
+    }
+}
