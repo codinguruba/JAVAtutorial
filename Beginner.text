@@ -1,4 +1,17 @@
+//CODE//
 
+public class Program {
+    public static void main(String[] args) {
+        String name = "Ronaldo";
+        String address = "Portugal";
+        int age = 35;
+        double bank_balance = 2000.0;
+        System.out.println(name);
+        System.out.println(address);
+        System.out.println(age);
+        System.out.println(bank_balance);
+    }
+}
 
 // JAVA PROGRAM
 import java.util.Scanner;
