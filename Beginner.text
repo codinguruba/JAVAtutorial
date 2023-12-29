@@ -47,3 +47,19 @@ public class Program {
         System.out.println("Area:"+area);
     }
 }
+
+import java.util.Scanner;
+public class Program {
+    public static void main(String[] args) {
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Principle:");
+        int p = ob.nextInt();
+        System.out.println("Time:");
+        int t = ob.nextInt();
+        System.out.println("Rate:");
+        double r = ob.nextDouble();
+        double si = (p*t*r)/100;
+        System.out.println("Simple interest:"+si);
+        
+    }
+}
