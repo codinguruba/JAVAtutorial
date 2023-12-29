@@ -1,0 +1,12 @@
+
+
+// JAVA PROGRAM
+import java.util.Scanner;
+public class Program {
+    public static void main(String[] args) {
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter your bank balance:");
+        double bank_balance = ob.nextDouble();
+        System.out.println("Your bank balance is,"+bank_balance);
+    }
+}
