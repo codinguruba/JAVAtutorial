@@ -63,3 +63,22 @@ public class Program {
         
     }
 }
+
+import java.util.Scanner;
+public class Program{
+    public static void main(String[] args) {
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a = ob.nextInt();
+        if(a>0){
+            System.out.println("Positive number");
+        }
+        else if(a==0){
+            System.out.println("The number is 0");
+        }
+        else{
+            System.out.println("The number is negative");
+        }
+        
+    }
+}
