@@ -82,3 +82,26 @@ public class Program{
         
     }
 }
+
+
+public class Program{
+    static void add(int a , int b){
+        int sum = a+b;
+        System.out.println(sum);
+    }
+    static void subtract(int a , int b){
+        int diff = a-b;
+        System.out.println(diff);
+    }
+    static void multiply(int a , int b){
+        int product = a*b;
+        System.out.println(product);
+        
+    }
+    
+    public static void main(String[] args) {
+       add(5,6);
+       subtract(6,5);
+       multiply(3,2);
+    }
+}
