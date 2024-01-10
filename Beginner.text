@@ -105,3 +105,24 @@ public class Program{
        multiply(3,2);
     }
 }
+
+import java.util.Scanner;
+public class Program12 {
+    
+    static void volume(int a , int b , int c){
+        int volume = a*b*c;
+        System.out.println("Volume is:"+volume);
+        }
+    
+    public static void main(String[]args){
+        Scanner ob = new Scanner (System.in);
+        System.out.println("Enter length, breadth, and height:");
+        int l = ob.nextInt();
+        int b= ob.nextInt();
+        int h= ob.nextInt();
+        
+        volume(l,b,h);
+        
+    }
+    
+}
